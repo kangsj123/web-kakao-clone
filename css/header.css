@@ -1,0 +1,16 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+
+.header .header__icon{
+  font-size: 10px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.header .header__header-column{
+  display: flex;
+  align-items: center;
+}

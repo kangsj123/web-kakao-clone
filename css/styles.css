@@ -4,3 +4,13 @@
 @import "more.css";
 @import "friends.css";
 @import "chat.css";
+@import "friend.css";
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+@media(min-width:500px){
+  
+}

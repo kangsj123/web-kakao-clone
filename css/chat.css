@@ -1,0 +1,8 @@
+.chats{
+  border-top: 2px solid #f7f7f7;
+
+}
+
+.chats .chats__list{
+  list-style: none;
+}

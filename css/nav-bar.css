@@ -1,0 +1,22 @@
+.nav{
+  color: black;
+  background-color: #fcfcfc;
+  border-top: 2px solid #f7f7f7;
+
+}
+
+.nav .nav__list{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin:0;
+}
+
+.nav i{
+  font-size: 25px;
+  padding: 30px;
+}
+
+.nav .nav__list-link{
+
+}

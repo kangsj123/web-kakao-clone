@@ -26,7 +26,7 @@
   </div>
   <header class="header">
     <div class="header__header-column">
-      <h2>채팅</h2>
+      <h2 class="header_title">채팅</h2>
     </div>
     <div class="header__header-column">
       <span class="header__icon">
@@ -45,9 +45,58 @@
     </div>
   </header>
   <main class="chats">
-    
+    <ul class="chats__list">
+      <li class="chats__chat">
+        <a href="chat.html">
+          <div class="chats_chat friend">
+            <div class="friend__column">
+              <img src="images/avatar.jpg" class="friend__avatar"/>
+              <div class="friend__content">
+                <span class="friend__name">
+                  강수진
+                </span>
+                <span class="friend__bottom-text">
+                  처음에는 다 어렵다.
+                </span>
+              </div>
+            </div>
+            <div class="friend__column">
+              <span class="chat__timestamp">
+                5월 15일
+              </span>
+            </div>
+          </div>
+        </a>
+      </li>
+    </ul>
   </main>
-  <nav class="nav"></nav>
-  <div class="bigScreen"></div>
+  <nav class="nav">
+    <ul class="nav__list">
+      <li class="nav__list-item">
+        <a href="friends.html" class="nav__list-link">
+          <i class="fa fa-user-o"></i>
+        </a>
+        <a href="index.html" class="nav__list-link">
+          <i class="fa fa-comment"></i>
+        </a>
+        <a href="hashtag.html" class="nav__list-link">
+          <i class="fa fa-hashtag"></i>
+        </a>
+        <a href="star.html" class="nav__list-link">
+          <i class="fa fa-star-o"></i>
+        </a>
+        <a href="more.html" class="nav__list-link">
+          <i class="fa fa-ellipsis-h"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <div class="bigScreen">
+    <span class="bigScreen__text">
+      <i class="fa fa-star"></i>
+      Please make your screen small
+      <i class="fa fa-star"></i>
+    </span>
+  </div>
 </body>
 </html>

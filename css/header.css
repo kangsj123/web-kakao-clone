@@ -2,15 +2,56 @@
   display: flex;
   justify-content: space-between;
   margin-left: 10px;
+  height: 50px;
 }
 
-.header .header__icon{
+.header .header__icon,
+.header .header__icon-white{
+  display:flex;
+  justify-content: space-between;
   font-size: 10px;
   margin-left: 12px;
   margin-right: 12px;
 }
 
+.header .header__hashtag-title{
+  opacity: 0.4;
+  display: inline;
+}
+.header .header__hashtag-title-click{
+  display:inline;
+}
+
 .header .header__header-column{
   display: flex;
   align-items: center;
+}
+
+.header__icon-white i{
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.header__icon .header__icon--plus{
+  position: relative;
+  right: 3px;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0px;
+  background-color: white;
+  border-radius: 100%;
+  height:12px;
+}
+
+.header__icon .header__icon--bracket{
+  font-size: 20px;
+}
+
+.header__icon .header__icon--line{
+  font-size: 20px;
+  background-color: white;
+  margin:0;
+  padding:0;
+  width: 22px;
+  height: 20px;
 }

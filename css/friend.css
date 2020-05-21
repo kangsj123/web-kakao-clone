@@ -10,9 +10,17 @@
   margin-right: 10px;
 }
 
+.friend .friend__avatar--mine{
+  border-radius: 30px;
+  width: 70px;
+  height: 70px;
+}
+
 .friend .friend__column{
   display: flex;
   align-items: center;
+  margin-top: 10px;
+  margin-bottom:10px;
 }
 
 .friend__content .friend__bottom-text{
@@ -30,4 +38,10 @@
   display: block;
   font-weight: 550;
   font-size: 16px;
+}
+
+.friend__content .friend__id{
+  display: block;
+  font-weight: 400;
+  font-size: 15px;
 }

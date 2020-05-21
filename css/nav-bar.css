@@ -1,16 +1,14 @@
 .nav{
   position: fixed;
   width: 100%;
-  color: black;
   background-color: #fcfcfc;
   border-top: 2px solid #f7f7f7;
-  padding: 0px 0px;
   bottom: 0px;
 }
 
 .nav .nav__list{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   list-style: none;
   padding:0;

@@ -5,4 +5,5 @@
 
 .chats .chats__list{
   list-style: none;
+  padding-left: 10px;
 }

@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="css/styles.css">
   <title>Chat | Kakao Clone</title>
 </head>
-<body class="chat-background">
+<body class="chats-body">
   <div class="status-bar">
     <div class="status-bar__column">
       <span class="status-bar__clock"><strong>9:46</strong></span>
@@ -25,9 +25,39 @@
     </div>
   </div>
   <header class="header">
-
+    <div class="header__header-column">
+      <a href="index.html">
+        <i class="fa fa-angle-left fa-2x"></i>
+        <span class="header__back-number">5</span>
+      </a>
+    </div>
+    <div class="header__small-title">강수진</div>
+    <dis class="header__header-column">
+      <span class="header__icon">
+        <i class="fa fa-search fa-2x"></i>
+      </span>
+      <span class="header__icon">
+        <i class="fa fa-calendar-check-o fa-2x"></i>
+      </span>
+      <span class="header__icon">
+        <i class="fa fa-bars fa-2x"></i>
+      </span>
+    </dis>
   </header>
-  <main class="chat-screen"></main>
+  <main class="chat-screen">
+    <ul class="chat__messages">
+      <span class="chat__timestamp">
+        2020년 4월 28일 화요일
+      </span><br>
+      <li class="incoming-message message">
+        <img src="images/avatar.jpg" class="message__avatar"/>
+        <div class="message__content"></div>
+      </li>
+      <li class="incoming-message message">
+        <div class="message__content"></div>
+      </li>
+    </ul>
+  </main>
   <div class="chat__write--container"></div>
   <div class="bigScreen">
     <span class="bigScreen__text">

@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="css/styles.css">
   <title>Chat | Kakao Clone</title>
 </head>
-<body>
+<body class="chats-body">
   <div class="status-bar">
     <div class="status-bar__column">
       <span class="status-bar__clock"><strong>9:46</strong></span>
@@ -25,41 +25,26 @@
     </div>
   </div>
   <header class="header">
-
+    <div class="header__header-column">
+      <a href="index.html">
+        <i class="fa fa-angle-left fa-2x"></i>
+        <span class="header__back-number">5</span>
+      </a>
+    </div>
+    <div class="header__small-title">예진(서)</div>
+    <dis class="header__header-column">
+      <span class="header__icon">
+        <i class="fa fa-search fa-2x"></i>
+      </span>
+      <span class="header__icon">
+        <i class="fa fa-bars fa-2x"></i>
+      </span>
+    </dis>
   </header>
-  <main class="add-friends-bar">
+  <main class="chat-screen">
 
   </main>
-  <nav class="nav">
-    <ul class="nav__list">
-      <li class="nav__list-item">
-        <a href="friends.html" class="nav__list-active-link">
-          <i class="fa fa-user"></i>
-        </a>
-      </li>
-      <li class="nav__list-item">
-        <a href="index.html" class="nav__list-link">
-          <i class="fa fa-comment"></i>
-          <span class="nav__message-comment">5</span>
-        </a>
-      </li>
-      <li class="nav__list-item">
-        <a href="hashtag.html" class="nav__list-link">
-          <i class="fa fa-hashtag"></i>
-        </a>
-      </li>
-      <li class="nav__list-item">
-        <a href="star.html" class="nav__list-link">
-          <i class="fa fa-star"></i>
-        </a>
-      </li>
-      <li class="nav__list-item">
-        <a href="more.html" class="nav__list-link">
-          <i class="fa fa-ellipsis-h"></i>
-        </a>
-      </li>
-    </ul>
-  </nav>
+  <div class="chat__write--container"></div>
   <div class="bigScreen">
     <span class="bigScreen__text">
       <i class="fa fa-star"></i>

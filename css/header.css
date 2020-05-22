@@ -3,6 +3,8 @@
   justify-content: space-between;
   margin-left: 10px;
   height: 50px;
+  text-align: center;
+  align-items: center;
 }
 
 .header .header__icon,
@@ -27,9 +29,22 @@
   align-items: center;
 }
 
+.header__small-title{
+  font-size: 19px;
+  font-weight: 600;
+  position: absolute;
+  right: 45%;
+}
+
 .header__icon-white i{
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.header .header__back-number{
+  font-size: 18px;
+  position: relative;
+  top: -3px;
 }
 
 .header__icon .header__icon--plus{

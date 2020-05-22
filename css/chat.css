@@ -8,3 +8,35 @@
   padding-left: 10px;
   margin:0;
 }
+
+.chats-body{
+  background-color: #a1b8d1;
+}
+
+.chat__messages .message__avatar{
+  width: 40px;
+  height: 40px;
+  border-radius: 15px;
+}
+
+.chat__messages{
+  list-style: none;
+  padding: 0;
+}
+
+.chat__messages .chat__timestamp{
+  display: block;
+  font-size: 11px;
+  color: white;
+  padding: 5px 10px;
+  background-color: #8e96ab;
+  opacity: 0.8;
+  border-radius: 15px;
+  position: absolute;
+  right: 38%;
+}
+
+.chat__messages .incoming-message.message{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

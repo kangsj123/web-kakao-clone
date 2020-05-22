@@ -97,6 +97,7 @@
   margin-right: 10px;
 }
 
+.chat__messages .fa.fa-user,
 .friend__column .fa.fa-user{
   font-size: 25px;
   width: 50px;

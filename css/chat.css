@@ -8,16 +8,3 @@
   padding-left: 10px;
   margin:0;
 }
-
-.chats__chat .fa.fa-user{
-  font-size: 25px;
-  width: 50px;
-  height: 50px;
-  color: #ccddff;
-  background-color: #809fff;
-  border-radius: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 10px;
-}

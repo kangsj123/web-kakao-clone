@@ -22,53 +22,8 @@
   opacity: 0.5;
 }
 
-.fa.fa-birthday-cake{
-  font-size: 25px;
-  width: 50px;
-  height: 50px;
-  color: white;
-  background-color: #ff6666;
-  border-radius: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 10px;
-}
-
-.fa.fa-smile-o{
-  font-size: 25px;
-  width: 50px;
-  height: 50px;
-  color: white;
-  background-color: #9966ff;
-  border-radius: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 10px;
-}
-
-.fa.fa-commenting{
-  font-size: 25px;
-  width: 50px;
-  height: 50px;
-  background-color: #ffe635;
-  border-radius: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 10px;
-}
-
-.fa.fa-heart{
-  font-size: 25px;
-  width: 50px;
-  height: 50px;
-  color: white;
-  background-color: #ff3300;
-  border-radius: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 10px;
+.friends .friends__list{
+  list-style: none;
+  margin:0;
+  padding:0;
 }

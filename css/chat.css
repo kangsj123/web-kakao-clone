@@ -13,7 +13,8 @@
   background-color: #a1b8d1;
 }
 
-.chat__messages .message__avatar{
+.chats-body .chat-screen .chat__messages .message__avatar{
+  font-size: 20px;
   width: 40px;
   height: 40px;
   border-radius: 15px;
@@ -36,7 +37,40 @@
   right: 38%;
 }
 
+.sent-message.message .message__text{
+  color: black;
+  font-size: 13px;
+  background-color: #ffe600;
+  padding: 5px 10px;
+  border-radius: 10px;
+  position: absolute;
+  right: 2%;
+  margin-bottom: 7px;
+}
+
+.incoming-message.message .message__text{
+  color: black;
+  font-size: 13px;
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  position: absolute;
+  left: 13%;
+  margin-bottom: 7px;
+}
+
+.chat__messages .sent-message.message,
 .chat__messages .incoming-message.message{
+  display: flex;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.chat__messages .message__content{
+  padding-left: 5px;
+}
+
+.chat__messages .message__writer{
+  font-size: 10px;
+  color: gray;
 }

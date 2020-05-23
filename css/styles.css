@@ -6,6 +6,7 @@
 @import "friend.css";
 @import "chat.css";
 @import "mobile.css";
+@import "hashtag.css";
 
 a{
   text-decoration: none;
@@ -14,4 +15,8 @@ a{
 
 body{
   margin:10px;
+}
+
+input::placeholder{
+  color: #a3a3a3;
 }

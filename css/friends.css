@@ -20,8 +20,53 @@
   opacity: 0.5;
 }
 
-.friends .friends__list{
+.friends__list{
   list-style: none;
   margin:0;
   padding:0;
+}
+
+.add-friends__menu{
+  padding: 10px 20px;
+  background-color: white;
+  z-index: 4;
+}
+
+.add-friends .nav__list-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 50px;
+}
+
+.add-friends__icon-makers{
+  font-size: 13px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  border: 1.5px solid black;
+  border-radius: 50%;
+}
+
+.add-friends__bottom-text{
+  font-size: 13px;
+}
+
+.add-friends__blur{
+  position: fixed;
+  width: 100%;
+  height: 75%;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  line-height: 1.5;
+  z-index: 2;
 }

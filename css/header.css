@@ -16,6 +16,11 @@
   margin-right: 12px;
 }
 
+.add-friends .header__icon{
+  display:flex;
+  justify-content: space-between;
+}
+
 .header .header__hashtag-title{
   opacity: 0.4;
   display: inline;
@@ -69,4 +74,15 @@
   padding:0;
   width: 22px;
   height: 20px;
+}
+
+.add-friends-header{
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  padding-left: 10px;
+  text-align: center;
+  align-items: center;
+  background-color: white;
+  z-index: 4;
 }

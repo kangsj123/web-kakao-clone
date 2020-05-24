@@ -90,4 +90,5 @@
 .hashtag__ad{
   width: 450px;
   cursor: pointer;
+  border-top: 10px solid #f0f0f0;
 }

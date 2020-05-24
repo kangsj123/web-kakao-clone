@@ -1,0 +1,110 @@
+.more{
+  margin: 10px;
+}
+.more__column{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom:10px;
+}
+
+.more__column .fa.fa-smile-o{
+  color: #00b300;
+}
+
+.more .more__pay-bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  padding: 10px 5px;
+  margin-top: 10px;
+}
+
+.more .more__pay-text{
+  font-weight:800;
+}
+
+.more .more__pay-menu-bar{
+  border-right: 1px solid #e7e7e7;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.more .more__pay-menu{
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.more .more__icon{
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px 0;
+  height: 50px;
+
+}
+
+.more .more__maker-tab-sub{
+  color: #b0b0b0;
+}
+
+.more .more__maker-tab-menu{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-top: 2px solid #f7f7f7;
+  border-bottom: 2px solid #f7f7f7;
+}
+
+.more .more__maker-tab-column{
+  margin-left: 20px;
+  margin-right: 50px;
+}
+
+.more .more__icon-bar{
+  margin: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.more .more__icon-text{
+  font-size: 12px;
+}
+
+.more .more__icon-makers{
+  font-size: 25px;
+  width: 27px;
+  height: 27px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.more .fa.fa-ticket,
+.more .fa.fa-circle-o{
+  color: #59f425;
+  text-shadow: -2px 0 #00b300, 0 2px #00b300, 2px 0 #00b300, 0 -2px #00b300;
+}
+
+.more .fa.fa-gamepad,
+.more .fa.fa-file.fa-flip-vertical{
+  color: #ffe635;
+  text-shadow: -2px 0 #f3c600, 0 2px #f3c600, 2px 0 #f3c600, 0 -2px #f3c600;
+}
+
+.more .fa.fa-paw{
+  color: #ffc300;
+  text-shadow: -2px 0 #f39d00, 0 2px #f39d00, 2px 0 #f39d00, 0 -2px #f39d00;
+}
+
+.more .fa.fa-gift,
+.more .fa.fa-th-large,
+.more .fa.fa-cutlery,
+.more .fa.fa-shopping-bag,
+.more .fa.fa-briefcase{
+  color: white;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
